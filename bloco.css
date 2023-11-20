@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root { 
+    --cor0:white;
+    --cor1:#068AE1;
+    --cor2:#0567C5 ;
+    --cor3:#0440A6 ;
+    --cor4:#021180 ;
+}
+
+.mpcentro > img {
+    width: 220px;
+    height: auto;
+    margin left: ;
+    display: block;
+    float: left; 
+    margin-right: 20px;
+
+  }
+
+main{
+    background-color: var(--cor0);
+    min-width:300px ;
+    max-width:1000px ;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+section{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);
+}
+
+section> h2 {
+    background-color: var(--cor2);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+section > h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section> p {
+    color: var(--cor0);
+}
+section > ul{
+    list-style-position: inside;
+    color: white;
+}
+.bloco-de-notas {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 2px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none; /* Evita redimensionamento manual do textarea */
+  }
