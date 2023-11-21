@@ -56,8 +56,8 @@ main{
 }
 main>div.img1{
          background-color: rgba(0, 0, 0, 0.863);
-         height:759px;
-         width: 1320px;
+         min-height:759px;
+         max-width: 1920px;
         color: white;  
         box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.705);
         border-radius: 10px 10px 0px 0px;
