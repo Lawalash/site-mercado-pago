@@ -15,9 +15,9 @@
 }
 
 .mpcentro > img {
-    width: 220px;
+    width: 180px;
     height: auto;
-    margin left: ;
+    margin: auto;
     display: block;
     float: left; 
     margin-right: 20px;
@@ -27,7 +27,7 @@
 main{
     background-color: var(--cor0);
     min-width:300px ;
-    max-width:1000px ;
+    max-width:1100px ;
     margin: auto;
     margin-bottom: 30px;
 
@@ -48,11 +48,17 @@ section> h2 {
     border-radius: 10px 10px 0px 0px;
     
 }
-
 section > h3 {
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#bdn{
+   margin-bottom: 10px;
+}
+.espaçamentoP{
     padding-bottom: 10px;
 }
+
 
 section> p {
     color: var(--cor0);
@@ -62,8 +68,8 @@ section > ul{
     color: white;
 }
 .bloco-de-notas {
-    max-width: 600px;
-    margin: 50px auto;
+    max-width: 800px;
+    margin: 90px auto;
     padding: 20px;
     background-color: #f5f5f5;
     border: 1px solid #ddd;
