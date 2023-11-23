@@ -31,7 +31,7 @@ main{
 }
 
 section{
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -48,6 +48,7 @@ section > h1 {
 
 .p{ padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 18px;
 
 }
 div{
